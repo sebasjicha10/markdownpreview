@@ -1,0 +1,113 @@
+body {
+    background-color: #282F33;
+}
+
+/* Top Section */
+#top {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+/* Title + Name */
+#header {
+    display: inline-block;
+}
+
+/* Title */
+#title {
+    color: #49A5EC;
+    font-weight: 350;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+/* Name */
+#sebas {
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+    margin-bottom: 0px;
+    float: left;
+    letter-spacing: 0.5px;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Edit & Preview Icons */
+.edit-icon {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: var(--main-color);
+}
+
+/* Resize Icon */
+.resize-icon {
+    color: var(--main-color);
+    margin-right: 8px;
+    box-shadow: 1px 1px 8px grey;
+}
+
+.resize-icon:hover {
+    color: #49A5EC;
+}
+
+/* Scroll Bar Styling */
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 15px;
+    cursor: row-resize;
+}
+
+/* Full Screen */
+.bigbox {
+    width: 95vw;
+    margin-top: 5px; 
+}
+
+.bigtext {
+    resize: none;
+    height: 88vh;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    /* Top Section */
+    #top {
+        padding: 5px 5px;
+    }
+    /* Title */
+    #title {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }  
+    /* Name */
+    #sebas {
+        font-size: 9px;
+        margin-bottom: 0px;
+        float: none;
+    }
+    /* Edit & Preview Icon + Titles */
+    #edit-title, #preview-title {
+        font-size: 10px;
+    }
+    /* Editor */
+    #editor {
+        font-size: 10px;
+    } 
+    /* Previewer */
+    #preview {
+        font-size: 90%;
+    }     
+}
