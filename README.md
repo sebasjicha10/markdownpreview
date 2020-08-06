@@ -1,4 +1,4 @@
-# Random Quote Machine
+# React Markdown Previewer
 
 Try it here:
 
